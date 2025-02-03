@@ -1,0 +1,66 @@
+/* Set background image */
+body {
+    background: url('https://raw.githubusercontent.com/Mihindig/okay/main/x.gif') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* I Love You Image */
+#loveImage {
+    width: auto;
+    max-width: 100%;
+    position: absolute;
+}
+
+/* Click Me Box */
+#clickMeBox {
+    position: absolute;
+    top: 60%;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: transparent;
+    font-family: monospace;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Container for questions */
+#questionContainer {
+    text-align: center;
+}
+
+/* GIF that appears after clicking */
+#questionGif {
+    max-width: 300px;
+}
+
+/* The question box */
+#questionBox {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    background: transparent;
+    display: inline-block;
+}
+
+/* Styling for options (Yes/No) */
+.options {
+    margin-top: 10px;
+}
+
+.option {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
